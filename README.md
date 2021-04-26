@@ -1,27 +1,44 @@
-# Invisterings robo rådgiver
+# Data Science Project Spring 2021
+## Investment Robot Counsellor
 
-## Ideen med dette projekt er at udvikle et program, der estimere prisudviklingen på aktier. Formålet er at udvikle et program, der kan bruges til at støtte op eller modbevise beslutninger om invisteringer. Programmet bliver udviklet ved at lave analyser på aktieprisers udvikling, som kan indikere aktiers overordnede retning. Det kan også gøres ved hjælp af Machine Learning. Ved at eksperimentere med forskellige løsninger er målet at udvikle det bedst mulige program, der kan bruges til at støtte op om beslutninger omkring invisteringer
+### Group
+* Sofie Amalie Landt - cph-sl307@cphbusiness.dk
+* Amanda Juhl Hansen - cph-ah433@cphbusiness.dk
+* Benjamin Aizen Kongshaug - cph-bk131@cphbusiness.dk
+
+### Context and purpose
+The purpose of this project is to develope a system for predicting the change in stock prices. This system is meant as a supplement to support or contradict the descision to invest in a given stock. We want to develope this system by analyzing the evolvement in the stock prices, which can indicate the overall direction of the stock price. This can be done by using Machine Learning or market analysis. We will experiment with different solutions, with the purpose of finding the best possible solution for this project.
+
+### Questions
+
+1. What will happen if we use previous changes in the stock prices to predict future stock price development? 
+2. What can we expect from the many possible analysis methods to predict stock prices and are they at any help at all or are the changes in stock prices random?
+3. What is the different result from Machine Learning vs. market analysis?
 
 ### Hypotheses
 
-## H0
+#### Null Hypotheses 
 
-Markedstendenser er tilfældige og det er ikke muligt at analysere sig frem til fremtidige markedets bevægelser
+Changes in stock prices are random and it's not possible to analyze and predict the future stock price.
 
-## H1
+#### Alternative Hypotheses
 
-Ved hjælp af Machine Learning og markedsanalyser kan man forudsige markedstendenser
+It is possible to predict future stock prices by using neural networks and market analysis 
 
-• What is in the focus of your interest?
+### What is in the focus of your interest?
 
-Fokus for denne opgave er at udvikle et program, der kan estimere priser og derigennem en positiv eller negativ udvikling af en aktie ud i fremtiden. Det vigtigste er at programmet kan estimere markedsretning, altså om der vil være en stigning eller fald i prisen frem for at ramme præcist på prisen.
+This project will be focused on developing a system which can predict stock prices and thereby a positive or negative development of a given stock in the future. Our most important goal for the system is to predict the direction of the change, and therefor not the exact price change. 
 
-• Why is it interesting?
-Det er interessant fordi hvis det lykkedes at modbevise nul hypotesen er det en god forretning og hvis det ikke virker.
+### Why is it interesting?
 
-• Which outcome do you expect from your research?
-Jeg forventer at nul hypotesen er rigtig, altså at det ikke er muligt at forudsige markeds tendenser.
+If it's possible to contradict the null hypotheses this project is interesting for us, because it means that normal people without knowledge of the stock market has a possibility to make profit by using this program. 
 
-• Who may be a user of the results?
-Hvis nul hypotesen er rigtig kan man bruge projektet til at se det ikke er muligt at forudsige market og undgå folk / virksomheder der påstår de har regnet det ud.
-Hvis nulhypotesen kan modbevises kan alle bruge projektet til at lave en helt masse klejner.
+### Which outcome do you expect from your research?
+
+We expect that the null hypotheses is correct and thereby that it's not possible to predict the future changes in stock prices. 
+
+### Who may be a user of the results?
+
+If the null hypotheses is correct this project can be used to proof that it is not possible to predict the stock market, and thereby prevent people / companies spending a lot of time and resources witout profit.
+
+If the null hypotheses is contradicted everyone can use this project to make personal profit.

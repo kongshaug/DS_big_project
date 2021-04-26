@@ -6,6 +6,13 @@
 * Amanda Juhl Hansen - cph-ah433@cphbusiness.dk
 * Benjamin Aizen Kongshaug - cph-bk131@cphbusiness.dk
 
+### Inspirational links
+
+* https://towardsdatascience.com/predicting-stock-price-with-lstm-13af86a74944
+* https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f
+* https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
+
+
 ### Context and purpose
 The purpose of this project is to develope a system for predicting the change in stock prices. This system is meant as a supplement to support or contradict the descision to invest in a given stock. We want to develope this system by analyzing the evolvement in the stock prices, which can indicate the overall direction of the stock price. This can be done by using Machine Learning or market analysis. We will experiment with different solutions, with the purpose of finding the best possible solution for this project.
 

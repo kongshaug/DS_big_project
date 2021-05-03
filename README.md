@@ -8,6 +8,11 @@
 - Amanda Juhl Hansen - cph-ah433@cphbusiness.dk
 - Benjamin Aizen Kongshaug - cph-bk131@cphbusiness.dk
 
+
+### Have a look at our data story: https://github.com/kongshaug/DS_big_project/blob/main/DataStory.pdf
+
+
+
 ### Inspirational links
 
 - https://towardsdatascience.com/predicting-stock-price-with-lstm-13af86a74944

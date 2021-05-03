@@ -50,7 +50,7 @@ We expect that the null hypotheses is correct and thereby that it's not possible
 
 If the null hypotheses is correct this project can be used to proof that it is not possible to predict the stock market, and thereby prevent people / companies spending a lot of time and resources witout profit.
 
-If the null hypotheses is contradicted everyone can use this project to make personal profit.
+If the null hypotheses is contradicted everyone can use this project to make personal profi
 
 ## Stage 2: Business Data Storytelling
 
@@ -59,6 +59,9 @@ If the null hypotheses is contradicted everyone can use this project to make per
 The data is stored in the [data folder](https://github.com/kongshaug/DS_big_project/tree/main/data)
 
 ### 2. Integrate the sources in shared repository by either ETL or ELT process (you can use public software, own code, or integration of tools)
+
+The data is integrated in the file [Stage_2
+](https://github.com/kongshaug/DS_big_project/blob/main/Stage_2.ipynb)
 
 3. Design a data story or data processing scenario (can be done manually on paper, but the use of
    software platforms is recommended).

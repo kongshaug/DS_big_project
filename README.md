@@ -78,7 +78,7 @@ We have used a LSTM model and a Regression model to explore the better fit for o
 
 We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose. The saved LSTM model have been trained with data from about 500 stocks. 
 
-[This link](https://github.com/kongshaug/DS_big_project/blob/main/tactic-20210513T141746Z-001/tactic/lstm.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model version 6.
+[This link](https://github.com/kongshaug/DS_big_project/blob/main/tactic-20210513T141746Z-001/tactic/lstm.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model.
 
 #### Regression Model and LSTM Model both validated with the same test data
 

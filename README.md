@@ -82,7 +82,9 @@ This is a link to show the LSTM model.
 
 This is a link to show the Regression model.
 
-![Regression_Model](https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png)
+<img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="" width="100" height="100" align="left">
+<img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="" width="100" height="100" align="right">
+
 
 
 ### 3. Store the trained model in a file for further implementation

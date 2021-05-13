@@ -8,10 +8,7 @@
 - Amanda Juhl Hansen - cph-ah433@cphbusiness.dk
 - Benjamin Aizen Kongshaug - cph-bk131@cphbusiness.dk
 
-
-### Have a look at our [data story](https://github.com/kongshaug/DS_big_project/blob/main/DataStory.pdf)
-
-
+## Stage 1: Business Case Foundation
 
 ### Inspirational links
 
@@ -61,18 +58,36 @@ If the null hypotheses is contradicted everyone can use this project to make per
 
 ### 1. Searching Internet and other media, find relevant data sources that can be used in your experiment.
 
-The data is stored in the [data folder](https://github.com/kongshaug/DS_big_project/tree/main/data)
+The data is stored in [this data folder](https://github.com/kongshaug/DS_big_project/tree/main/data)
 
 ### 2. Integrate the sources in shared repository by either ETL or ELT process (you can use public software, own code, or integration of tools)
 
-The data is integrated in the file [Stage_2
-](https://github.com/kongshaug/DS_big_project/blob/main/Stage_2.ipynb)
+The data is integrated into [this file](https://github.com/kongshaug/DS_big_project/blob/main/Stage_2.ipynb)
 
-3. Design a data story or data processing scenario (can be done manually on paper, but the use of
-   software platforms is recommended).
-   a. decide on data processing parameters and methods
-   b. choose data visualisation techniques
-   c. create visual representations
-   d. create dashboards
-   e. create a prototype of data story
-4. Export your solution in a file and upload it to your git repository.
+### 3. Design a Data Story or Data Processing Scenario 
+
+Have a look at our [data story](https://github.com/kongshaug/DS_big_project/blob/main/DataStory.pdf)
+
+## Stage 3: Integrating AI
+
+### 1. Select relevant Machine Learning methods and development tools
+
+We have used a LSTM model and a Regression model to explore the better fit for our project.
+
+### 2. Create the AI module
+
+We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose.
+
+This is a link to show the LSTM model.
+
+This is a link to show the Regression model.
+
+### 3. Store the trained model in a file for further implementation
+
+This is the saved trained LSTM model based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.
+
+### 4. Integrate it with the other modules in your Data Story, as appropiate, in a new AI prototype of your product
+
+
+
+

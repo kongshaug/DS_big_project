@@ -82,15 +82,11 @@ This is a link to show the LSTM model.
 
 This is a link to show the Regression model.
 
+#### Regression Model and LSTM Model both validated with the same test data
+
 <p align="center" width="100%">
 
 <img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="Regression" title="Regression Model" width="49%"> 
-
-<figcaption>
-   
-   Regression Model
-   
-</figcaption>
 
 <img src="https://user-images.githubusercontent.com/47500265/118145758-38c66500-b40e-11eb-84dc-4fc33238ac81.png" alt="LSTM" title="LSTM Model" width="49%"> 
    
@@ -98,7 +94,10 @@ This is a link to show the Regression model.
 
 
 
-                                                                                   
+#### LSTM Model validated with new data
+
+<img src="https://user-images.githubusercontent.com/47500265/118149368-c5265700-b411-11eb-8a91-0c38d3d06283.png" alt="LSTM" title="LSTM Model" width="49%"> 
+                                                                             
 
 
 ### 3. Store the trained model in a file for further implementation

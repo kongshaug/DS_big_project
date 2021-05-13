@@ -84,9 +84,9 @@ This is a link to show the Regression model.
 
 <p align="center" width="100%">
 
-<img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="Regression" title="Regression Model"> 
+<img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="Regression" title="Regression Model" width="49%"> 
 
-<img src="https://user-images.githubusercontent.com/47500265/118145758-38c66500-b40e-11eb-84dc-4fc33238ac81.png" alt="LSTM" title="LSTM Model"> 
+<img src="https://user-images.githubusercontent.com/47500265/118145758-38c66500-b40e-11eb-84dc-4fc33238ac81.png" alt="LSTM" title="LSTM Model" width="49%"> 
    
 </p>
 

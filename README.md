@@ -81,16 +81,16 @@ We have decided to train the two models with data from only two stocks, to demon
 This is a link to show the LSTM model.
 
 This is a link to show the Regression model.
-<p>
-<img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="" width="485" height="300" align="left">
-  <em>Regression Model</em>
-</p>
 
-<p>
-<img src="https://user-images.githubusercontent.com/47500265/118145758-38c66500-b40e-11eb-84dc-4fc33238ac81.png" alt="" width="485" height="300" align="right">
-  <em>   LSTM model</em>
-</p>
+<figure>
+  <img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="Regression"/>
+  <figcaption>Regression Model</figcaption>
+</figure>
 
+<figure>
+  <img src="https://user-images.githubusercontent.com/47500265/118145758-38c66500-b40e-11eb-84dc-4fc33238ac81.png" alt="LSTM"/>
+  <figcaption>LSTM Model</figcaption>
+</figure>
                                                                                    
 
 

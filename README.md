@@ -76,11 +76,9 @@ We have used a LSTM model and a Regression model to explore the better fit for o
 
 ### 2. Create the AI module
 
-We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose.
+We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose. The saved LSTM model have been trained with data from about 500 stocks. 
 
-This is a link to show the LSTM model.
-
-This is a link to show the Regression model.
+[This link](https://github.com/kongshaug/DS_big_project/blob/main/tactic-20210513T141746Z-001/tactic/lstm.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model version 6.
 
 #### Regression Model and LSTM Model both validated with the same test data
 
@@ -110,8 +108,6 @@ As seen on the graph above the return of the LSTM Model is significantly higher 
 
 ### 3. Store the trained model in a file for further implementation
 
-This is the saved trained LSTM model based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.
+The saved trained LSTM models are based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.
 
-### 4. Integrate it with the other modules in your Data Story, as appropiate, in a new AI prototype of your product
-
-
+[This folder](https://github.com/kongshaug/DS_big_project/tree/main/models/models) contains the LSTM models for further use. We are using the 6th version. In the previous versions we have tested with different parameters like epochs, number of neurons and time-window. 

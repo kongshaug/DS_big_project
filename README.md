@@ -86,26 +86,32 @@ This is a link to show the Regression model.
 
 <p align="center" width="100%">
 
-<img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="Regression" title="Regression Model" width="49%"> 
+<img src="https://user-images.githubusercontent.com/47500265/118152338-da50b500-b414-11eb-9973-006fda0d6753.png" alt="Regression" title="Regression Model" width="49%"> 
 
 <img src="https://user-images.githubusercontent.com/47500265/118145758-38c66500-b40e-11eb-84dc-4fc33238ac81.png" alt="LSTM" title="LSTM Model" width="49%"> 
    
 </p>
 
-As seen on the two graphs above, the Regression Model (left model) have a higher return than the LSTM Model (right model). 
+- As seen on the two graphs above, the LSTM Model (right model) have a higher return than the Regression Model (left model).
+
+- The LSTM Model have predicted that the stock price would increase the following day - 990 out of 2362 days. Only 495 days out of these 990 days, the price actually increased the following day. This gives a total of 50 % correct predictions and 50 % of false positive. The validation loss of the LSTM Model is around 0.06 %.
+
+- The Regression Model have predicted that the stock price would increase the following day - 2118 out of 2362 days. Only 1038 days out of these 2118 days, the price actually increased the following day. This gives a total of 49 % correct predictions and 51 % of false positive. The validation loss of the Regression Model is around 0.6 %.
+
+- LSTM Models takes into consideration the last 35 days when predicting the following day's closing price. Through this the model gets an understanding of previous fluctuation and therefore a greater fundament for prediction. 
+
+Based on this and our observations we have decided to work with the LSTM Model.
 
 #### LSTM Model validated with new data
 
 <img src="https://user-images.githubusercontent.com/47500265/118149368-c5265700-b411-11eb-8a91-0c38d3d06283.png" alt="LSTM" title="LSTM Model"> 
                                                                              
-As seen on the graph above the return of the LSTM Model is significantly higher than the market return. This means that our model ...
+As seen on the graph above the return of the LSTM Model is significantly higher than the market return thorughout the time period. This is an indicium that our model have obtained a concept of stock price movement on the market, that exceeds the market return of the stock it has been trained on. 
 
 ### 3. Store the trained model in a file for further implementation
 
 This is the saved trained LSTM model based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.
 
 ### 4. Integrate it with the other modules in your Data Story, as appropiate, in a new AI prototype of your product
-
-
 
 

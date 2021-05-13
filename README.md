@@ -87,6 +87,12 @@ This is a link to show the Regression model.
 
 
 
+
+
+
+
+
+
 ### 3. Store the trained model in a file for further implementation
 
 This is the saved trained LSTM model based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.

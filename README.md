@@ -9,7 +9,7 @@
 - Benjamin Aizen Kongshaug - cph-bk131@cphbusiness.dk
 
 
-### Have a look at our data story: https://github.com/kongshaug/DS_big_project/blob/main/DataStory.pdf
+### Have a look at our [data story](https://github.com/kongshaug/DS_big_project/blob/main/DataStory.pdf)
 
 
 
@@ -55,7 +55,7 @@ We expect that the null hypotheses is correct and thereby that it's not possible
 
 If the null hypotheses is correct this project can be used to proof that it is not possible to predict the stock market, and thereby prevent people / companies spending a lot of time and resources witout profit.
 
-If the null hypotheses is contradicted everyone can use this project to make personal profi
+If the null hypotheses is contradicted everyone can use this project to make personal profit.
 
 ## Stage 2: Business Data Storytelling
 

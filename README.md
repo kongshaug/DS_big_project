@@ -92,13 +92,13 @@ This is a link to show the Regression model.
    
 </p>
 
-
+As seen on the two graphs above, the Regression Model (left model) have a higher return than the LSTM Model (right model). 
 
 #### LSTM Model validated with new data
 
-<img src="https://user-images.githubusercontent.com/47500265/118149368-c5265700-b411-11eb-8a91-0c38d3d06283.png" alt="LSTM" title="LSTM Model" width="49%"> 
+<img src="https://user-images.githubusercontent.com/47500265/118149368-c5265700-b411-11eb-8a91-0c38d3d06283.png" alt="LSTM" title="LSTM Model"> 
                                                                              
-
+As seen on the graph above the return of the LSTM Model is significantly higher than the market return. This means that our model ...
 
 ### 3. Store the trained model in a file for further implementation
 

@@ -116,20 +116,28 @@ The saved trained LSTM models are based on data from 500 stocks each of these wi
 
 ### 1. Consider applying 3D visualisation and VR/AR/MR techniques
 
-We want to illustrate how to implement an AR solution for visualize our data. The idea is that everyone can print out a company logo and use an app to visualize the stock data for the company. It is also possible to compare stock data between mulitple companies, this can be seen on picture 3 and 4.
+We want to illustrate how to implement an AR solution for visualize our data. The idea is that everyone can print out a company logo and use an app to visualize the stock data for the company. It is also possible to compare stock data between mulitple companies. 
 
 Each graph shows the market return and the LSTM strategy return as well as markers for when to buy and sell in relation to the LSTM model. This way it is easier for the users to analyse the results based on the visualization. 
 
-Picture 1:
+##### Picture 1
+
+
 <img src="https://user-images.githubusercontent.com/47500265/119221057-caf4fa00-baed-11eb-88a2-27bddf5d7cb1.jpeg" alt="3Dvisualisering" width="40%" height="35%" align="center"> 
 
-Picture 2:
+##### Picture 2
+
+
 <img src="https://user-images.githubusercontent.com/47500265/119221063-cf211780-baed-11eb-840b-8b4fb37d099d.png" alt="3Dvisualisering"  width="40%" height="35%" align="center"> 
 
-Picture 3:
+##### Picture 3
+
+
 <img src="https://user-images.githubusercontent.com/47500265/119221060-ccbebd80-baed-11eb-92b5-5b238da5413d.jpeg" alt="3Dvisualisering" width="40%" height="35%" align="center"> 
 
-Picture 4:
+##### Picture 4
+
+
 <img src="https://user-images.githubusercontent.com/47500265/119221064-d0524480-baed-11eb-9a7e-b9017a98784a.png" alt="3Dvisualisering" width="40%" height="35%" align="center"> 
 
 

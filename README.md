@@ -116,9 +116,11 @@ The saved trained LSTM models are based on data from 500 stocks each of these wi
 
 ### 1. Consider applying 3D visualisation and VR/AR/MR techniques
 
-We want to illustrate how to implement an AR solution for visualize our data. The idea is that everyone can print out a company logo and use an app to visualize the stock data for the company. It is also possible to compare stock data between mulitple companies. 
+We want to illustrate how to implement an AR solution for visualize our data. The reason for choosing AR is that everyone has a smart phone available that makes this solution accessible for everyone. The idea is that everyone can print out a company logo and use an app to visualize the stock data for the company. It is also possible to compare stock data between mulitple companies.
 
 Each graph shows the market return and the LSTM strategy return as well as markers for when to buy and sell in relation to the LSTM model. This way it is easier for the users to analyse the results based on the visualization. 
+
+We have tried to visualise our AR solution on the pictures below.
 
 ##### Picture 1
 
@@ -143,11 +145,9 @@ Each graph shows the market return and the LSTM strategy return as well as marke
 
 ### 2. Benefits of applying better visualisation techniques for data analytics
 
-When we analyze data in the typical 2D format, usually comprised of numbers listed in a spreadsheet or grouped in a pie chart, there’s a limit to how much information we can actually take away and use for planning, making decisions, targeting customers, etc. 
+When we analyze data in the typical 2D format, usually comprised of numbers listed in a spreadsheet or grouped in a pie chart, there’s a limit to how much information we can actually take away and use for making decisions.
 
-- More complex data than expected can be visualized in AR.
-- Better comprehension of distances and outliers, more natural interaction and an improved engagement and accuracy
+- More complex data can be visualized in AR.
+- Better comprehension of distances and outliers in a more natural interaction.
 - Being able to immerse yourself into the data
-
-
 

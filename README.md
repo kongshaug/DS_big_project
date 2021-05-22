@@ -118,11 +118,11 @@ The saved trained LSTM models are based on data from 500 stocks each of these wi
 
 #### AR mobile app
 
-We want to illustrate how to implement an AR solution for visualize our data. The reason for choosing AR is that everyone has a smart phone available that makes this solution accessible for everyone. The idea is that everyone can print out a company logo and use an app to visualize the stock data for the company. It is also possible to compare stock data between mulitple companies.
+We want to illustrate how to implement an AR solution for visualize our data. The reason for choosing AR is that everyone has a smart phone available that makes this solution widely accessible. The idea is that the user can print out a company logo and use our app to visualize the stock data of the company. It is also possible to compare stock data between mulitple companies simply by placing the logos next to eachother on a table.
 
 Each graph shows the market return and the LSTM strategy return as well as markers for when to buy and sell in relation to the LSTM model. This way it is easier for the users to analyse the results based on the visualization. 
 
-We have tried to visualise our AR solution on the pictures below.
+We have tried to visualise our AR solution in the pictures below.
 
 ##### Picture 1
 

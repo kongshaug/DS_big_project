@@ -116,13 +116,13 @@ The saved trained LSTM models are based on data from 500 stocks each of these wi
 
 ### 1. Consider applying 3D visualisation and VR/AR/MR techniques
 
-<img src="https://user-images.githubusercontent.com/47500265/119221057-caf4fa00-baed-11eb-88a2-27bddf5d7cb1.jpeg" alt="3Dvisualisering" width="40%" height="40%"> 
+<img src="https://user-images.githubusercontent.com/47500265/119221057-caf4fa00-baed-11eb-88a2-27bddf5d7cb1.jpeg" alt="3Dvisualisering" width="40%" height="35%"> 
 
-<img src="https://user-images.githubusercontent.com/47500265/119221063-cf211780-baed-11eb-840b-8b4fb37d099d.png" alt="3Dvisualisering"  width="40%" height="40%"> 
+<img src="https://user-images.githubusercontent.com/47500265/119221063-cf211780-baed-11eb-840b-8b4fb37d099d.png" alt="3Dvisualisering"  width="40%" height="35%"> 
 
-<img src="https://user-images.githubusercontent.com/47500265/119221060-ccbebd80-baed-11eb-92b5-5b238da5413d.jpeg" alt="3Dvisualisering" width="40%" height="40%"> 
+<img src="https://user-images.githubusercontent.com/47500265/119221060-ccbebd80-baed-11eb-92b5-5b238da5413d.jpeg" alt="3Dvisualisering" width="40%" height="35%"> 
 
-<img src="https://user-images.githubusercontent.com/47500265/119221064-d0524480-baed-11eb-9a7e-b9017a98784a.png" alt="3Dvisualisering" width="40%" height="40%"> 
+<img src="https://user-images.githubusercontent.com/47500265/119221064-d0524480-baed-11eb-9a7e-b9017a98784a.png" alt="3Dvisualisering" width="40%" height="35%"> 
 
 
 

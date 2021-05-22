@@ -76,36 +76,78 @@ We have used a LSTM model and a Regression model to explore the better fit for o
 
 ### 2. Create the AI module
 
-We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose.
+We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose. The saved LSTM model have been trained with data from about 500 stocks. 
 
-This is a link to show the LSTM model.
-
-This is a link to show the Regression model.
+[This link](https://github.com/kongshaug/DS_big_project/blob/main/tactic-20210513T141746Z-001/tactic/lstm.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model.
 
 #### Regression Model and LSTM Model both validated with the same test data
 
 <p align="center" width="100%">
 
-<img src="https://user-images.githubusercontent.com/47500265/118144399-b2f5ea00-b40c-11eb-9f39-bfba70cf86ff.png" alt="Regression" title="Regression Model" width="49%"> 
+<img src="https://user-images.githubusercontent.com/47500265/118152338-da50b500-b414-11eb-9973-006fda0d6753.png" alt="Regression" title="Regression Model" width="49%"> 
 
 <img src="https://user-images.githubusercontent.com/47500265/118145758-38c66500-b40e-11eb-84dc-4fc33238ac81.png" alt="LSTM" title="LSTM Model" width="49%"> 
    
 </p>
 
-As seen on the two graphs above, the Regression Model (left model) have a higher return than the LSTM Model (right model). 
+- As seen on the two graphs above, the LSTM Model (right model) have a higher return than the Regression Model (left model).
+
+- The LSTM Model have predicted that the stock price would increase the following day - 990 out of 2362 days. Only 495 days out of these 990 days, the price actually increased the following day. This gives a total of 50 % correct predictions and 50 % of false positive. The validation loss of the LSTM Model is around 0.06 %.
+
+- The Regression Model have predicted that the stock price would increase the following day - 2118 out of 2362 days. Only 1038 days out of these 2118 days, the price actually increased the following day. This gives a total of 49 % correct predictions and 51 % of false positive. The validation loss of the Regression Model is around 0.6 %.
+
+- LSTM Models takes into consideration the last 35 days when predicting the following day's closing price. Through this the model gets an understanding of previous fluctuation and therefore a greater fundament for prediction. 
+
+Based on this and our observations we have decided to work with the LSTM Model.
 
 #### LSTM Model validated with new data
 
 <img src="https://user-images.githubusercontent.com/47500265/118149368-c5265700-b411-11eb-8a91-0c38d3d06283.png" alt="LSTM" title="LSTM Model"> 
                                                                              
-As seen on the graph above the return of the LSTM Model is significantly higher than the market return. This means that our model ...
+As seen on the graph above the return of the LSTM Model is significantly higher than the market return thorughout the time period. This is an indicium that our model have obtained a concept of stock price movement on the market, that exceeds the market return of the stock it has been trained on. 
 
 ### 3. Store the trained model in a file for further implementation
 
-This is the saved trained LSTM model based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.
+The saved trained LSTM models are based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.
 
-### 4. Integrate it with the other modules in your Data Story, as appropiate, in a new AI prototype of your product
+[This folder](https://github.com/kongshaug/DS_big_project/tree/main/models/models) contains the LSTM models for further use. We are using the 6th version. In the previous versions we have tested with different parameters like epochs, number of neurons and time-window. 
+
+## Stage 4: Immersive Analytics and Visualisation
+
+### 1. Consider applying 3D visualisation and VR/AR/MR techniques
+
+We want to illustrate how to implement an AR solution for visualize our data. The reason for choosing AR is that everyone has a smart phone available that makes this solution accessible for everyone. The idea is that everyone can print out a company logo and use an app to visualize the stock data for the company. It is also possible to compare stock data between mulitple companies.
+
+Each graph shows the market return and the LSTM strategy return as well as markers for when to buy and sell in relation to the LSTM model. This way it is easier for the users to analyse the results based on the visualization. 
+
+We have tried to visualise our AR solution on the pictures below.
+
+##### Picture 1
 
 
+<img src="https://user-images.githubusercontent.com/47500265/119221057-caf4fa00-baed-11eb-88a2-27bddf5d7cb1.jpeg" alt="3Dvisualisering" width="40%" height="35%" align="center"> 
 
+##### Picture 2
+
+
+<img src="https://user-images.githubusercontent.com/47500265/119221063-cf211780-baed-11eb-840b-8b4fb37d099d.png" alt="3Dvisualisering"  width="40%" height="35%" align="center"> 
+
+##### Picture 3
+
+
+<img src="https://user-images.githubusercontent.com/47500265/119221060-ccbebd80-baed-11eb-92b5-5b238da5413d.jpeg" alt="3Dvisualisering" width="40%" height="35%" align="center"> 
+
+##### Picture 4
+
+
+<img src="https://user-images.githubusercontent.com/47500265/119221064-d0524480-baed-11eb-9a7e-b9017a98784a.png" alt="3Dvisualisering" width="40%" height="35%" align="center"> 
+
+
+### 2. Benefits of applying better visualisation techniques for data analytics
+
+When we analyze data in the typical 2D format, usually comprised of numbers listed in a spreadsheet or grouped in a pie chart, there’s a limit to how much information we can actually take away and use for making decisions.
+
+- More complex data can be visualized in AR.
+- Better comprehension of distances and outliers in a more natural interaction.
+- Being able to immerse yourself into the data
 

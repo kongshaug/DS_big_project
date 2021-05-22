@@ -111,3 +111,27 @@ As seen on the graph above the return of the LSTM Model is significantly higher 
 The saved trained LSTM models are based on data from 500 stocks each of these with a minimum of 800 working days on the stock market.
 
 [This folder](https://github.com/kongshaug/DS_big_project/tree/main/models/models) contains the LSTM models for further use. We are using the 6th version. In the previous versions we have tested with different parameters like epochs, number of neurons and time-window. 
+
+## Stage 4: Immersive Analytics and Visualisation
+
+### 1. Consider applying 3D visualisation and VR/AR/MR techniques
+
+
+![3Dvisualisering3](https://user-images.githubusercontent.com/47500265/119221057-caf4fa00-baed-11eb-88a2-27bddf5d7cb1.jpeg)
+![3Dvisualisering2](https://user-images.githubusercontent.com/47500265/119221063-cf211780-baed-11eb-840b-8b4fb37d099d.png)
+![3Dvisualisering4](https://user-images.githubusercontent.com/47500265/119221060-ccbebd80-baed-11eb-92b5-5b238da5413d.jpeg)
+![3Dvisualisering1](https://user-images.githubusercontent.com/47500265/119221064-d0524480-baed-11eb-9a7e-b9017a98784a.png)
+
+
+
+
+### 2. Benefits of applying better visualisation techniques for data analytics
+
+When we analyze data in the typical 2D format, usually comprised of numbers listed in a spreadsheet or grouped in a pie chart, there’s a limit to how much information we can actually take away and use for planning, making decisions, targeting customers, etc. 
+
+- More complex data than expected can be visualized in AR.
+- Better comprehension of distances and outliers, more natural interaction and an improved engagement and accuracy
+- Being able to immerse yourself into the data
+
+
+

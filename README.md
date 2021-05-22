@@ -158,8 +158,9 @@ This visualisation could also be shown in our AR mobile app.
 
 ### 2. Benefits of applying better visualisation techniques for data analytics
 
-When we analyze data in the typical 2D format, usually comprised of numbers listed in a spreadsheet or grouped in a pie chart, there’s a limit to how much information we can actually take away and use for making decisions.
+When we analyze data in the typical 2D format, usually comprised of numbers listed in a spreadsheet or grouped in a pie chart, there’s a limit to how much information we can actually take away and use for making decisions. 
 
+Therefore the benefits of 3D techniques are as follows:
 - More complex data can be visualized in AR.
 - Better comprehension of distances and outliers in a more natural interaction.
 - Being able to immerse yourself into the data

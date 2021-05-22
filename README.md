@@ -116,6 +116,8 @@ The saved trained LSTM models are based on data from 500 stocks each of these wi
 
 ### 1. Consider applying 3D visualisation and VR/AR/MR techniques
 
+#### AR mobile app
+
 We want to illustrate how to implement an AR solution for visualize our data. The reason for choosing AR is that everyone has a smart phone available that makes this solution accessible for everyone. The idea is that everyone can print out a company logo and use an app to visualize the stock data for the company. It is also possible to compare stock data between mulitple companies.
 
 Each graph shows the market return and the LSTM strategy return as well as markers for when to buy and sell in relation to the LSTM model. This way it is easier for the users to analyse the results based on the visualization. 
@@ -141,6 +143,17 @@ We have tried to visualise our AR solution on the pictures below.
 
 
 <img src="https://user-images.githubusercontent.com/47500265/119221064-d0524480-baed-11eb-9a7e-b9017a98784a.png" alt="3Dvisualisering" width="40%" height="35%" align="center"> 
+
+#### 3D heatmap
+
+Another way to analyse the data is to make a 3d heatmap that can be used to determine which stocks our LSTM model would be sufficient for prediction. By visualising the accumulated return of our LSTM model over time we get a better understanding of the generel performance instead of only looking at the end result. With this technique we can account for sudden outliers and optain a broader understanding of the performance on multple stocks at once.
+
+This 3d heatmap is just to illustrate the concept and does not use our data.
+
+
+<img src="https://user-images.githubusercontent.com/47500265/119221962-3e990600-baf2-11eb-92f1-22a374e4a1aa.png" alt="heatmap" width="40%" height="40%" align="center"> 
+
+This visualisation could also be shown in our AR mobile app.
 
 
 ### 2. Benefits of applying better visualisation techniques for data analytics

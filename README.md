@@ -62,7 +62,11 @@ The data is stored in [this data folder](https://github.com/kongshaug/DS_big_pro
 
 ### 2. Integrate the sources in shared repository by either ETL or ELT process (you can use public software, own code, or integration of tools)
 
-The data is integrated into [this file](https://github.com/kongshaug/DS_big_project/blob/main/Stage_2.ipynb)
+For a further explanation of how each analysis is implemented and data is engineered, look into [this notebook](https://github.com/kongshaug/DS_big_project/blob/main/Data_processing_and_visualisation.ipynb)
+
+In the notebook we load two stocks and performs a RSI and Moving Average analysis on them. 
+Then we explore the engineered data in order to see if the new generated parameters, can widen our understandig of the data. We will do this by plotting the engineered data in a graph, and use it for analysing when to buy and sell the stocks. If the outcome of these analysis is not useful, it indicates that we should use more complex methods for prediction or combine these analysis with other types of data engineering for use in AI models. 
+
 
 ### 3. Design a Data Story or Data Processing Scenario 
 
@@ -78,7 +82,7 @@ We have used a LSTM model and a Regression model to explore the better fit for o
 
 We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose. The saved LSTM model have been trained with data from about 500 stocks. 
 
-[This link](https://github.com/kongshaug/DS_big_project/blob/main/tactic-20210513T141746Z-001/tactic/lstm.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model.
+[This link](https://github.com/kongshaug/DS_big_project/blob/main/Neural networks/lstm and regression models.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model.
 
 #### Regression Model and LSTM Model both validated with the same test data
 

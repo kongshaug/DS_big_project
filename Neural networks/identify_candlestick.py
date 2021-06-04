@@ -42,20 +42,24 @@ def recognize_candlestick(df, all = True):
         if len(row[candle_names]) - sum(row[candle_names] == 0) == 0:
             df.loc[index, 'candlestick_pattern'] = "NO_PATTERN"
             df.loc[index, 'candlestick_match_count'] = 0
+            
         # single pattern found
         elif len(row[candle_names]) - sum(row[candle_names] == 0) == 1:
+            
             # bull pattern 100 or 200
             if any(row[candle_names].values > 0):
                 pattern = list(compress(row[candle_names].keys(
                 ), row[candle_names].values != 0))[0] + '_Bull'
                 df.loc[index, 'candlestick_pattern'] = pattern
                 df.loc[index, 'candlestick_match_count'] = 1
+                
             # bear pattern -100 or -200
             else:
                 pattern = list(compress(row[candle_names].keys(
                 ), row[candle_names].values != 0))[0] + '_Bear'
                 df.loc[index, 'candlestick_pattern'] = pattern
                 df.loc[index, 'candlestick_match_count'] = 1
+                
         # multiple patterns matched -- select best performance
         else:
             # filter out pattern names from bool list of values
@@ -65,9 +69,12 @@ def recognize_candlestick(df, all = True):
             for pattern in patterns:
                 if row[pattern] > 0:
                     container.append(pattern + '_Bull')
+                    
                 else:
                     container.append(pattern + '_Bear')
+                    
             rank_list = [candle_rankings[p] for p in container]
+            
             if len(rank_list) == len(container):
                 rank_index_best = rank_list.index(min(rank_list))
                 df.loc[index, 'candlestick_pattern'] = container[rank_index_best]
@@ -75,16 +82,16 @@ def recognize_candlestick(df, all = True):
                 container = np.array([stick[-4:] for stick in container])
                 container = np.where(container == 'Bull', 1, -1)
                 # df.loc[index, 'candlestick_match_sum'] = sum(container)
+                
     # clean up candle columns
     cols_to_drop = candle_names + list(exclude_items)
     cols_to_drop_updated = []
+    
     for col in cols_to_drop:
         if col in df.columns:
             cols_to_drop_updated.append(col)
+            
     if all == False:
         df.drop(cols_to_drop_updated, axis=1, inplace=True)
-    # elif "candlestick_match_sum" in df.columns:
-    #     df["candlestick_match_sum"] = np.where(
-    #         df["candlestick_match_sum"].isnull(), 0, df["candlestick_match_sum"])
-
+        
     return df

@@ -101,7 +101,7 @@ We have decided to train the two models with data from only one stock, to demons
 
 [This link](https://github.com/kongshaug/DS_big_project/blob/main/Neural_networks/lstm_and_regression_models.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model. 
 
-#### Data pipeline
+#### Data pipeline - [Link](https://github.com/kongshaug/DS_big_project/blob/main/datastory.png) to see the pipeline in a bigger format (click download)
 
 ![data pipeline](https://user-images.githubusercontent.com/47500265/120844534-d32e4a00-c56f-11eb-91e5-6d4190b2f220.png)
 

@@ -224,3 +224,6 @@ Therefore the benefits of 3D techniques are as follows:
 - Better comprehension of distances and outliers in a more natural interaction.
 - Being able to immerse yourself into the data
 
+## Conclusion
+
+Both the LSTM and Regression model had a success rate around 50 \% which is just as good as buying and selling your stocks randomly. We can conclude that our results supports the null hypotheses and therefore we can accept it. The price fluctuation is dependent on multiple factors and simply giving the neural network the price and market analysis, as we do, is not enough to make a model that can reject our null hypotheses. In order to improve our model we would have to gather more data on the companies we are predicting on.

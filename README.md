@@ -8,6 +8,22 @@
 - Amanda Juhl Hansen - cph-ah433@cphbusiness.dk
 - Benjamin Aizen Kongshaug - cph-bk131@cphbusiness.dk
 
+### Installation guide
+
+1. Run this command from the root of project to install required libraries:
+
+````
+pip install -r /requirements.txt
+````
+
+2. Install TA-Lib by downloading it and pip installing it from here: [TA-lib repo](https://github.com/mrjbq7/ta-lib)
+
+3. Open the project in jupyter 
+
+4. Run the notebook lstm_and_regression_models in the folder Neural_networks
+
+
+
 ## Stage 1: Business Case Foundation
 
 ### Inspirational links
@@ -60,12 +76,16 @@ If the null hypotheses is contradicted everyone can use this project to make per
 
 The data is stored in [this data folder](https://github.com/kongshaug/DS_big_project/tree/main/data)
 
+The dataset originates from [kaggle](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)
+It is one of the largest open source datasets with stock price data.
+It has both stock data and ETF data, we only use the stock data
+
 ### 2. Integrate the sources in shared repository by either ETL or ELT process (you can use public software, own code, or integration of tools)
 
 For a further explanation of how each analysis is implemented and data is engineered, look into [this notebook](https://github.com/kongshaug/DS_big_project/blob/main/Data_processing_and_visualisation.ipynb)
 
 In the notebook we load two stocks and performs a RSI and Moving Average analysis on them. 
-Then we explore the engineered data in order to see if the new generated parameters, can widen our understandig of the data. We will do this by plotting the engineered data in a graph, and use it for analysing when to buy and sell the stocks. If the outcome of these analysis is not useful, it indicates that we should use more complex methods for prediction or combine these analysis with other types of data engineering for use in AI models. 
+Then we explore the data in order to see if the new generated parameters, can widen our understandig of the data. We will do this by plotting the data in a graph, and use it for analysing when to buy and sell the stocks. If the outcome of these analysis is not useful, it indicates that we should use more complex methods for prediction or combine these analysis with other types of data engineering for use in AI models. 
 
 
 ### 3. Design a Data Story or Data Processing Scenario 
@@ -78,11 +98,46 @@ Have a look at our [data story](https://github.com/kongshaug/DS_big_project/blob
 
 We have used a LSTM model and a Regression model to explore the better fit for our project.
 
+
 ### 2. Create the AI module
 
-We have decided to train the two models with data from only two stocks, to demonstrate which of the models to choose. The saved LSTM model have been trained with data from about 500 stocks. 
+We have decided to train the two models with data from only one stock, to demonstrate which of the models to choose. The saved LSTM model have been trained with data from about 500 stocks. 
 
-[This link](https://github.com/kongshaug/DS_big_project/blob/main/Neural networks/lstm and regression models.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model.
+[This link](https://github.com/kongshaug/DS_big_project/blob/main/Neural_networks/lstm_and_regression_models.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model. 
+
+#### Methods and algorithms to prepare the data for prediction
+
+In order to use our data for prediction we go through five steps. 
+
+1) We exclude unmeaningful data and only use: Close, High, Low and Open.
+
+2) We generate new parameters to enrich the data fed to the model by performing market analysis on the stock prices.
+
+3) We remove NaN values to clean up the data.
+
+4) We scale the data in order for the model not to apply any meaning to the stock price value, but only in procential fluctuation.
+
+5) Finally we split the data into a training and test dataset with a 80/20 split.
+
+
+#### Methods and algorithms for prediction 
+
+##### LSTM model 
+
+For the LSTM model we have obtained the best results using Adam as the optimizer, and mean_squared_error as the loss function. Futhermore we have used 18 epochs, with a batch-size of 126 per stock. We did this since the model stopped improving after the 17th epoch and our RAM size limited us to 126 in the batch size.
+
+This model consists of four LSTM layers with a dropout 20 % between each layer, to avoid overfitting and at last a dense layer. 
+
+
+##### Regression model 
+
+For the Regression model we have obtained the best results using Adam as the optimizer, Relu as activation function and mean_absolute_error as the loss function. Futhermore we have used 30 epochs, with a batch-size of 126 per stock. We did this for the sane reason as the LSTM model.
+
+This model consists of five dense layers. The first four layers uses Relu as activation function and the last layer uses linear as activation function. 
+
+
+##### We have cleaned up the notebook after this example was written and therefore the printouts in the notebook does not match the once below but the training process remains the same.
+
 
 #### Regression Model and LSTM Model both validated with the same test data
 

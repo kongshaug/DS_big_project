@@ -22,8 +22,6 @@ pip install -r /requirements.txt
 
 4. Run the notebook lstm_and_regression_models in the folder Neural_networks
 
-
-
 ## Stage 1: Business Case Foundation
 
 ### Inspirational links
@@ -87,7 +85,6 @@ For a further explanation of how each analysis is implemented and data is engine
 In the notebook we load two stocks and performs a RSI and Moving Average analysis on them. 
 Then we explore the data in order to see if the new generated parameters, can widen our understandig of the data. We will do this by plotting the data in a graph, and use it for analysing when to buy and sell the stocks. If the outcome of these analysis is not useful, it indicates that we should use more complex methods for prediction or combine these analysis with other types of data engineering for use in AI models. 
 
-
 ### 3. Design a Data Story or Data Processing Scenario 
 
 Have a look at our [data story](https://github.com/kongshaug/DS_big_project/blob/main/DataStory.pdf)
@@ -98,12 +95,15 @@ Have a look at our [data story](https://github.com/kongshaug/DS_big_project/blob
 
 We have used a LSTM model and a Regression model to explore the better fit for our project.
 
-
 ### 2. Create the AI module
 
 We have decided to train the two models with data from only one stock, to demonstrate which of the models to choose. The saved LSTM model have been trained with data from about 500 stocks. 
 
 [This link](https://github.com/kongshaug/DS_big_project/blob/main/Neural_networks/lstm_and_regression_models.ipynb) shows the training of both LSTM model and Regression model. Furthermore the implementation of the saved LSTM Model. 
+
+#### Data pipeline
+
+![data pipeline](https://user-images.githubusercontent.com/47500265/120844534-d32e4a00-c56f-11eb-91e5-6d4190b2f220.png)
 
 #### Methods and algorithms to prepare the data for prediction
 
